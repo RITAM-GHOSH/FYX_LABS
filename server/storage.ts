@@ -1,6 +1,7 @@
 
+import postgres from 'pg';
+const { Pool } = postgres;
 import { drizzle } from 'drizzle-orm/node-postgres';
-import { Pool } from 'pg';
 import { users, type User, type InsertUser, contactMessages, type ContactMessage, type InsertContactMessage } from "@shared/schema";
 
 export interface IStorage {
