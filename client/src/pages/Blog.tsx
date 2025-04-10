@@ -91,7 +91,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Blog | Acodez</title>
+        <title>Blog | FYX LABS</title>
         <meta name="description" content="Insights, tips, and industry updates from our expert team to help you stay ahead in the digital world." />
       </Helmet>
 
