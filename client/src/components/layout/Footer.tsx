@@ -144,7 +144,7 @@ const Footer = () => {
         
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-muted-foreground mb-4 md:mb-0">© 2023 FYX LABS. All rights reserved.</p>
+            <p className="text-muted-foreground mb-4 md:mb-0">© 2025 RG CORPORATIONS. All rights reserved.</p>
             <ul className="flex flex-wrap gap-6">
               <li>
                 <Link href="/terms" className="text-muted-foreground hover:text-primary transition-all">

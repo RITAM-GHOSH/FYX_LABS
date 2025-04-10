@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium mb-1">Our Location</p>
-                  <p className="text-muted-foreground">123 Business Avenue, Tech Park, San Francisco, CA 94107</p>
+                  <p className="text-muted-foreground"> Asansol,India,West Bengal - 713325</p>
                 </div>
               </div>
               <div className="flex items-start mb-6">
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium mb-1">Email Us</p>
-                  <p className="text-muted-foreground">info@fyxlabs.com</p>
+                  <p className="text-muted-foreground">majestic.ritam@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -87,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium mb-1">Call Us</p>
-                  <p className="text-muted-foreground">+1 (234) 567-8901</p>
+                  <p className="text-muted-foreground">+91 8967646888</p>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Contact = () => {
                         <FormLabel>Your Name</FormLabel>
                         <FormControl>
                           <Input 
-                            placeholder="John Doe" 
+                            placeholder="NAME" 
                             className="bg-muted border-border" 
                             {...field} 
                           />
@@ -141,7 +141,7 @@ const Contact = () => {
                         <FormLabel>Your Email</FormLabel>
                         <FormControl>
                           <Input 
-                            placeholder="john@example.com" 
+                            placeholder="email" 
                             className="bg-muted border-border" 
                             {...field} 
                           />
