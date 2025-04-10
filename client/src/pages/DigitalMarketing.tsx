@@ -7,7 +7,7 @@ const DigitalMarketing = () => {
   return (
     <>
       <Helmet>
-        <title>Digital Marketing Services | Acodez</title>
+        <title>Digital Marketing Services | FYX LABS</title>
         <meta name="description" content="Strategic digital marketing services to increase visibility, drive traffic, and generate qualified leads for your business." />
       </Helmet>
       

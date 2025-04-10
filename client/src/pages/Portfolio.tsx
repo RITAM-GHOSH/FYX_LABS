@@ -110,7 +110,7 @@ const Portfolio = () => {
   return (
     <>
       <Helmet>
-        <title>Portfolio | Acodez</title>
+        <title>Portfolio | FYX LABS</title>
         <meta name="description" content="Explore our portfolio of successful projects that showcase our expertise and commitment to excellence in web development, digital marketing, and more." />
       </Helmet>
 

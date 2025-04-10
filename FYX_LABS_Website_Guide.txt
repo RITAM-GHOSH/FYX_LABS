@@ -1,0 +1,182 @@
+# FYX LABS WEBSITE GUIDE
+## A comprehensive guide for non-technical users
+
+This document will help you understand the structure of your FYX LABS website and guide you on how to make common changes such as updating content, images, and links.
+
+## WEBSITE STRUCTURE OVERVIEW
+
+The website is built using React, a modern JavaScript framework. The main folders you'll be working with are:
+
+- `client/src/pages/`: Contains all the main pages of the website
+- `client/src/components/`: Contains reusable components used across multiple pages
+- `client/src/assets/`: Where images and other media files are stored
+
+## MAIN PAGES
+
+The website consists of these main pages:
+
+1. **Home Page** - `client/src/pages/Home.tsx`
+   - The landing page of the website
+   - Includes sections like Hero, Services, Portfolio, About, and Contact
+
+2. **About Us Page** - `client/src/pages/AboutUs.tsx`
+   - Contains company information, mission, values, and team members
+
+3. **Services Pages**:
+   - **Web Development** - `client/src/pages/WebDevelopment.tsx`
+   - **Digital Marketing** - `client/src/pages/DigitalMarketing.tsx`
+
+4. **Portfolio Page** - `client/src/pages/Portfolio.tsx`
+   - Showcases your company's projects and case studies
+
+5. **Blog Page** - `client/src/pages/Blog.tsx`
+   - Contains blog posts and articles
+
+6. **Contact Page** - `client/src/pages/Contact.tsx`
+   - Contact form and company contact information
+
+## KEY COMPONENTS
+
+Components are reusable parts that appear on multiple pages:
+
+1. **Header** - `client/src/components/layout/Header.tsx`
+   - The navigation bar at the top of every page
+   - Contains logo, navigation links, and mobile menu button
+
+2. **Footer** - `client/src/components/layout/Footer.tsx`
+   - The bottom section that appears on every page
+   - Contains contact info, social links, and copyright
+
+3. **MobileMenu** - `client/src/components/layout/MobileMenu.tsx`
+   - Mobile navigation menu that appears on smaller screens
+
+4. **Home Page Components** - `client/src/components/home/`
+   - Various sections that make up the home page:
+     - Hero.tsx - Main banner section
+     - Services.tsx - Services overview
+     - About.tsx - Brief about company
+     - Portfolio.tsx - Featured projects
+     - Testimonials.tsx - Client testimonials
+     - Process.tsx - Work process
+     - Blog.tsx - Recent blog posts
+     - CTA.tsx - Call to action section
+     - Contact.tsx - Contact form
+
+## HOW TO MAKE COMMON CHANGES
+
+### 1. Changing Text Content
+
+To change text content on any page, locate the appropriate file and look for the text you want to change within paragraphs (`<p>`) or headings (`<h1>`, `<h2>`, etc.).
+
+For example, to update the company description on the About page:
+1. Open `client/src/pages/AboutUs.tsx`
+2. Look for paragraphs containing company information
+3. Change the text between the opening and closing tags
+
+### 2. Changing Images
+
+To change an image:
+1. Add your new image to the `client/src/assets/` folder
+2. Import the image at the top of the file where you want to use it:
+   ```
+   import newImage from "@/assets/your-image-filename.jpg";
+   ```
+3. Find the `<img>` tag you want to change and update the `src` attribute:
+   ```
+   <img src={newImage} alt="Description of image" />
+   ```
+
+### 3. Updating Links
+
+To change a link:
+1. Find the `<Link>` or `<a>` tag containing the link
+2. Update the `href` attribute to your new URL
+   - For internal links: `<Link href="/about">`
+   - For external links: `<a href="https://example.com">`
+
+### 4. Changing Contact Information
+
+To update contact information:
+1. Open `client/src/components/home/Contact.tsx`
+2. Look for sections containing email, phone, or address
+3. Update the text between the paragraph tags
+
+### 5. Updating Team Members
+
+To change team member information:
+1. Open `client/src/pages/AboutUs.tsx`
+2. Find the team members section
+3. Update the names, titles, descriptions, and images as needed
+
+### 6. Changing Logo
+
+To update the company logo:
+1. Add your new logo to `client/src/assets/`
+2. Open `client/src/components/layout/Header.tsx`
+3. Update the import statement at the top
+4. Update the `<img>` tag in the header component
+
+## PAGE-SPECIFIC GUIDES
+
+### Home Page (Home.tsx)
+
+The home page is composed of multiple sections. To edit:
+1. Open `client/src/pages/Home.tsx` to see how sections are arranged
+2. Each section is imported from `client/src/components/home/`
+3. Edit the specific component for the section you want to change
+
+### About Us Page (AboutUs.tsx)
+
+This page contains:
+- Company story
+- Mission and values
+- Team members
+- Achievements
+
+To edit, open `client/src/pages/AboutUs.tsx` and update the relevant sections.
+
+### Services Pages
+
+Each service has its own page:
+- `WebDevelopment.tsx`
+- `DigitalMarketing.tsx`
+
+These contain service descriptions, benefits, and process information. Edit the relevant file to update service details.
+
+### Portfolio Page (Portfolio.tsx)
+
+To update portfolio projects:
+1. Open `client/src/pages/Portfolio.tsx`
+2. Find the project cards section
+3. Update project titles, descriptions, images, and links
+
+### Blog Page (Blog.tsx)
+
+To update blog content:
+1. Open `client/src/pages/Blog.tsx`
+2. Find the blog post sections
+3. Update titles, summaries, dates, images, and links
+
+### Contact Page (Contact.tsx)
+
+To update contact information or form:
+1. Open `client/src/pages/Contact.tsx`
+2. Update the contact details and form fields as needed
+
+## COMMON TAILWIND CSS CLASSES
+
+The website uses Tailwind CSS for styling. Here are some common classes you'll see:
+
+- `text-primary`: Sets text to primary brand color
+- `text-white`: Sets text to white
+- `text-muted-foreground`: Sets text to a muted color
+- `font-bold`: Makes text bold
+- `text-2xl`, `text-3xl`: Controls text size
+- `mb-4`, `mt-6`: Adds margin (spacing) to elements
+- `flex`, `grid`: Controls layout
+- `rounded-lg`: Adds rounded corners
+- `bg-background`, `bg-card`: Sets background colors
+
+## GETTING HELP
+
+If you need to make more complex changes, it's recommended to consult with a developer. This guide covers the most common changes that non-technical users might want to make.

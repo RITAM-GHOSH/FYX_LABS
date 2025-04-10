@@ -7,8 +7,8 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | Acodez</title>
-        <meta name="description" content="Learn about Acodez - an award-winning IT company offering web development, digital marketing, and mobile app development services worldwide." />
+        <title>About Us | FYX LABS</title>
+        <meta name="description" content="Learn about FYX LABS - an award-winning IT company offering web development, digital marketing, and mobile app development services worldwide." />
       </Helmet>
 
       <section className="py-20 bg-gradient-to-b from-background to-card">
@@ -21,7 +21,7 @@ const AboutUs = () => {
               We Turn Ideas Into Exceptional Digital Experiences
             </h1>
             <p className="text-lg text-muted-foreground">
-              Acodez is an award-winning IT company with over a decade of experience in delivering cutting-edge digital solutions to businesses worldwide.
+              FYX LABS is an award-winning IT company with over a decade of experience in delivering cutting-edge digital solutions to businesses worldwide.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ const AboutUs = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Our Story</h2>
               <div className="space-y-6 text-muted-foreground">
                 <p>
-                  Founded in 2011, Acodez started with a vision to help businesses establish a strong digital presence through innovative technology solutions. What began as a small team of passionate developers has now grown into a global digital agency with over 200 team members across multiple locations.
+                  Founded in 2011, FYX LABS started with a vision to help businesses establish a strong digital presence through innovative technology solutions. What began as a small team of passionate developers has now grown into a global digital agency with over 200 team members across multiple locations.
                 </p>
                 <p>
                   Over the years, we've had the privilege of working with businesses of all sizes, from startups to Fortune 500 companies, helping them navigate the digital landscape and achieve their business objectives through strategic digital solutions.
@@ -55,7 +55,7 @@ const AboutUs = () => {
                   Our journey has been marked by continuous learning, innovation, and a commitment to excellence. We pride ourselves on staying ahead of industry trends and technologies to deliver cutting-edge solutions that give our clients a competitive edge in the digital space.
                 </p>
                 <p>
-                  Today, Acodez stands as an award-winning digital agency recognized for our expertise in web development, digital marketing, mobile app development, and UI/UX design. Our work has been acknowledged with over 100+ international awards and recognitions, a testament to our dedication to quality and excellence.
+                  Today, FYX LABS stands as an award-winning digital agency recognized for our expertise in web development, digital marketing, mobile app development, and UI/UX design. Our work has been acknowledged with over 100+ international awards and recognitions, a testament to our dedication to quality and excellence.
                 </p>
               </div>
             </div>
