@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/20 rounded-3xl blur-xl"></div>
               <div className="relative z-10 rounded-2xl w-full h-80 md:h-96 bg-muted overflow-hidden flex items-center justify-center">
-                <img src="/src/assets/fyx-labs-logo.jpg" alt="FYX LABS Logo" className="w-32 h-32 object-contain" />
+                <img src="/src/assets/fyx-labs-logo.jpg" alt="FYX LABS Logo" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-5 -left-5 bg-card p-4 rounded-lg border border-border shadow-lg">
                 <div className="flex items-center gap-3">
