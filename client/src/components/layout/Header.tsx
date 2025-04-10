@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import MobileMenu from "./MobileMenu";
-import fyxLabsLogo from "@/assets/fyx-labs-logo.jpg";
+import PIXELFOX from "@/assets/PIXELFOX.jpg";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <img src={fyxLabsLogo} alt="FYX LABS Logo" className="h-10 mr-2" />
+              <img src={PIXELFOX} alt="FYX LABS Logo" className="h-10 mr-2" />
               <h1 className="text-2xl font-bold text-white">
                 <span className="text-primary">FYX</span> <span className="text-white">LABS</span>
               </h1>
