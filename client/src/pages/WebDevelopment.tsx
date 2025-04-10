@@ -7,8 +7,8 @@ const WebDevelopment = () => {
   return (
     <>
       <Helmet>
-        <title>Web Development Services | Acodez</title>
-        <meta name="description" content="Professional web development services for businesses of all sizes. Build scalable, responsive websites with Acodez." />
+        <title>Web Development Services | FYX LABS</title>
+        <meta name="description" content="Professional web development services for businesses of all sizes. Build scalable, responsive websites with FYX LABS." />
       </Helmet>
       
       <section className="py-20 bg-gradient-to-b from-background to-card">

@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-foreground font-medium mb-1">Email Us</p>
-                  <p className="text-muted-foreground">info@acodez.com</p>
+                  <p className="text-muted-foreground">info@fyxlabs.com</p>
                 </div>
               </div>
               <div className="flex items-start">
