@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <div className="lg:w-1/2 animate-fade-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-primary/20 rounded-3xl blur-xl"></div>
+              <div className="absolute -inset-4 bg-primary/20 rounded-3xl blur-xl glow-effect"></div>
               <div className="relative z-10 rounded-2xl w-full h-80 md:h-96 bg-muted overflow-hidden flex items-center justify-center">
                 <img src="/src/assets/fyx-labs-logo.jpg" alt="FYX LABS Logo" className="w-full h-full object-cover" />
               </div>

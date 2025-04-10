@@ -63,7 +63,26 @@
   }
 }
 
+@keyframes glow {
+  0% {
+    opacity: 0.4;
+    filter: blur(20px);
+  }
+  50% {
+    opacity: 0.6;
+    filter: blur(15px);
+  }
+  100% {
+    opacity: 0.4;
+    filter: blur(20px);
+  }
+}
+
 @layer components {
+  .glow-effect {
+    animation: glow 3s ease-in-out infinite;
+  }
+
   .nav-dropdown {
     @apply opacity-0 invisible translate-y-2 transition-all duration-300
            group-hover:opacity-100 group-hover:visible group-hover:translate-y-0;
