@@ -14,6 +14,8 @@ import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
 import UiUxDesign from "@/pages/UiUxDesign";
 import MobileApps from "@/pages/MobileApps";
+import SuccessStories from "@/pages/SuccessStories";
+import ClientProjects from "@/pages/ClientProjects";
 
 function Router() {
   return (
@@ -27,6 +29,8 @@ function Router() {
         <Route path="/services/mobile-apps" component={MobileApps} />
         <Route path="/about" component={AboutUs} />
         <Route path="/portfolio" component={Portfolio} />
+        <Route path="/portfolio/success-stories" component={SuccessStories} />
+        <Route path="/portfolio/client-projects" component={ClientProjects} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
