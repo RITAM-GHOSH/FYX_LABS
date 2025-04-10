@@ -1,0 +1,101 @@
+
+# FYX LABS WEBSITE CODEBASE GUIDE
+A beginner-friendly guide to understand and modify the website code
+
+## 1. PROJECT STRUCTURE
+
+### Client Side (Frontend) - /client folder
+This contains all the visual parts of the website that users see.
+
+#### Important Folders:
+- /client/src/pages: Contains main website pages
+- /client/src/components: Contains reusable parts like headers, buttons
+- /client/src/assets: Contains images and other media
+
+### Server Side (Backend) - /server folder
+Handles data and business logic.
+
+## 2. HOW TO MODIFY COMMON ELEMENTS
+
+### A. Changing Text Content
+
+1. To change main pages content, look in `/client/src/pages/`:
+   - Home.tsx: Landing page content
+   - AboutUs.tsx: About page content
+   - Contact.tsx: Contact page content
+   - WebDevelopment.tsx: Web development services
+   - DigitalMarketing.tsx: Digital marketing services
+   - Portfolio.tsx: Project showcase
+   - Blog.tsx: Blog posts
+
+2. To change reusable components, check `/client/src/components/`:
+   - Header.tsx: Top navigation bar
+   - Footer.tsx: Bottom section
+   - MobileMenu.tsx: Mobile navigation
+
+### B. Changing Home Page Sections
+
+All home page sections are in `/client/src/components/home/`:
+- Hero.tsx: Main banner section
+- Services.tsx: Services overview
+- About.tsx: Brief company info
+- Portfolio.tsx: Featured work
+- Contact.tsx: Contact form
+- Process.tsx: Work process steps
+- Testimonials.tsx: Client reviews
+- Partners.tsx: Partner logos
+- Blog.tsx: Recent blog posts
+- CTA.tsx: Call-to-action sections
+
+### C. Changing Colors and Styles
+
+1. Main styling: `/client/src/index.css`
+2. Theme configuration: `theme.json`
+3. Tailwind configuration: `tailwind.config.ts`
+
+## 3. COMMON MODIFICATIONS GUIDE
+
+### To Change Contact Information:
+1. Open `/client/src/components/home/Contact.tsx`
+2. Look for sections with email, phone, or address
+3. Update the text between paragraph tags
+
+### To Update Company Logo:
+1. Add new logo to `/client/src/assets/`
+2. Open `/client/src/components/layout/Header.tsx`
+3. Update the image import and source
+
+### To Modify Navigation Menu:
+1. Open `/client/src/components/layout/Header.tsx`
+2. Find the navigation links section
+3. Add/modify/remove links as needed
+
+### To Add/Change Services:
+1. Open `/client/src/components/home/Services.tsx`
+2. Look for the services list/grid
+3. Add or modify service items
+
+## 4. IMPORTANT FILES FOR BEGINNERS
+
+1. `FYX_LABS_Website_Guide.txt`: Contains general website structure
+2. `/client/src/pages/Home.tsx`: Main landing page
+3. `/client/src/components/layout/Header.tsx`: Navigation menu
+4. `/client/src/components/layout/Footer.tsx`: Footer content
+5. `/client/src/components/home/`: All home page sections
+
+## 5. TIPS FOR MAKING CHANGES
+
+1. Always make a backup before changing any file
+2. Test changes in development mode first
+3. Use the built-in components from `/client/src/components/ui/`
+4. Follow existing code patterns and styles
+5. Keep the responsive design in mind (mobile-friendly)
+
+## 6. GETTING HELP
+
+1. Check the original `FYX_LABS_Website_Guide.txt` for detailed structure
+2. Look at similar components for code examples
+3. Use the comments in the code for guidance
+4. Test changes frequently using the Run button
+
+Remember: Most content changes can be made by simply updating the text within the existing components. Always maintain the same structure and styling patterns for consistency.
