@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Acodez</title>
+        <title>Contact Us | FYX LABS</title>
         <meta name="description" content="Get in touch with our team to discuss your project requirements. We're here to help bring your digital vision to life." />
       </Helmet>
 

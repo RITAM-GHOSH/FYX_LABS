@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <h2 className="section-title">We're a leading digital agency with global presence</h2>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Acodez is an award-winning IT company offering web design, web development, mobile app development, and digital marketing services to clients around the globe.
+              FYX LABS is an award-winning IT company offering web design, web development, mobile app development, and digital marketing services to clients around the globe.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               With over a decade of experience, our multidisciplinary team brings together expertise across all digital domains to deliver exceptional results for businesses of all sizes.

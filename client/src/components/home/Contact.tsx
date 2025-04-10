@@ -21,7 +21,7 @@ type ContactFormValues = z.infer<typeof contactFormSchema>;
 
 const Contact = () => {
   const { toast } = useToast();
-  
+
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -58,7 +58,7 @@ const Contact = () => {
             Have a project in mind? Reach out to us to discuss how we can help bring your vision to life.
           </p>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <div className="mb-10">
@@ -91,7 +91,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Follow Us</h3>
               <div className="flex space-x-4">
@@ -110,7 +110,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="bg-card p-8 rounded-xl">
@@ -132,7 +132,7 @@ const Contact = () => {
                       </FormItem>
                     )}
                   />
-                  
+
                   <FormField
                     control={form.control}
                     name="email"
@@ -151,7 +151,7 @@ const Contact = () => {
                     )}
                   />
                 </div>
-                
+
                 <FormField
                   control={form.control}
                   name="subject"
@@ -169,7 +169,7 @@ const Contact = () => {
                     </FormItem>
                   )}
                 />
-                
+
                 <FormField
                   control={form.control}
                   name="message"
@@ -188,7 +188,7 @@ const Contact = () => {
                     </FormItem>
                   )}
                 />
-                
+
                 <Button type="submit" className="btn-primary w-full">
                   Send Message
                 </Button>

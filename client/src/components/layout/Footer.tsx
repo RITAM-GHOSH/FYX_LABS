@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
             <h1 className="text-2xl font-bold text-white mb-6">
-              <span className="text-primary">Acodez</span>
+              <span className="text-primary">FYX LABS</span>
             </h1>
             <p className="text-muted-foreground mb-6">
               A leading digital agency delivering innovative web solutions and digital marketing strategies to businesses worldwide.
@@ -135,7 +135,7 @@ const Footer = () => {
                   htmlFor="consent" 
                   className="text-muted-foreground text-sm leading-tight cursor-pointer"
                 >
-                  I agree to receive emails from Acodez and can unsubscribe at any time.
+                  I agree to receive emails from FYX LABS and can unsubscribe at any time.
                 </label>
               </div>
             </form>
@@ -144,7 +144,7 @@ const Footer = () => {
         
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-muted-foreground mb-4 md:mb-0">© 2023 Acodez. All rights reserved.</p>
+            <p className="text-muted-foreground mb-4 md:mb-0">© 2023 FYX LABS. All rights reserved.</p>
             <ul className="flex flex-wrap gap-6">
               <li>
                 <Link href="/terms" className="text-muted-foreground hover:text-primary transition-all">
