@@ -12,6 +12,8 @@ import AboutUs from "@/pages/AboutUs";
 import Portfolio from "@/pages/Portfolio";
 import Blog from "@/pages/Blog";
 import Contact from "@/pages/Contact";
+import UiUxDesign from "@/pages/UiUxDesign";
+import MobileApps from "@/pages/MobileApps";
 
 function Router() {
   return (
@@ -21,6 +23,8 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/services/web-development" component={WebDevelopment} />
         <Route path="/services/digital-marketing" component={DigitalMarketing} />
+        <Route path="/services/ui-ux" component={UiUxDesign} />
+        <Route path="/services/mobile-apps" component={MobileApps} />
         <Route path="/about" component={AboutUs} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/blog" component={Blog} />
